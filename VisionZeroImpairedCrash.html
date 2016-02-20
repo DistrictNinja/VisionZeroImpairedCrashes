@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+    <script src="main.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='page.css' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Vision Zero Impaired Crashes</title>
+
+</head>
+<body onload="DN.init()">
+
+<div class="viz">
+    <div class="title">
+        <div class="header">Vision Zero: Impaired Crashes 2010-2014</div>
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <div id="chartLabel"></div>
+                    <div class="cPanel">
+                    </div>
+                </td>
+                <td>
+                    <div class="vizPanel">
+                        <svg id="svgMap" width="500px" height="100%" shape-rendering="auto"></svg>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="footnote">Data By: DC Vision Zero Project</div>
+    </div>
+
+
+</div>
+</body>
+</html>
